@@ -9,19 +9,19 @@
 </head>
 
 <body>
-    <div class="flex justify-between px-12 py-6 sticky top-0 bg-white">
+    <div class="flex justify-between px-12 py-6 sticky top-0 z-50 bg-white">
         <div>
-            <a class="cursor-pointer font-semibold text-3xl">Propiedades Jnfix</a>
+            <a class="cursor-pointer font-semibold text-3xl" href="Inicio.html">Propiedades Jnfix</a>
         </div>
         <div class="flex flex-row gap-8">
             <a class="cursor-pointer hover:scale-110 hover:transition-transform hover:underline">Inicio</a>
-            <a class="cursor-pointer hover:scale-110 hover:transition-transform hover:underline">Propiedades</a>
-            <a class="cursor-pointer hover:scale-110 hover:transition-transform hover:underline">Servicios</a>
-            <a class="cursor-pointer hover:scale-110 hover:transition-transform hover:underline">Sobre Nosotros</a>
-            <a class="cursor-pointer hover:scale-110 hover:transition-transform hover:underline">Contactanos</a>
+            <a class="cursor-pointer hover:scale-110 hover:transition-transform hover:underline" href="Propiedades.html">Propiedades</a>
+            <a class="cursor-pointer hover:scale-110 hover:transition-transform hover:underline" href="Servicios.html">Servicios</a>
+            <a class="cursor-pointer hover:scale-110 hover:transition-transform hover:underline" href="Nosotros.html">Sobre Nosotros</a>
+            <a class="cursor-pointer hover:scale-110 hover:transition-transform hover:underline" href="Contacto.html">Contactanos</a>
         </div>
-        <div>
-            <a href="" class="px-6 py-2 bg-green-950 text-white font-semibold text-sm">Contactanos Gratis</a>
+        <div class="hover:scale-105 transition-all">
+            <a class="px-6 py-2 bg-green-950 text-white font-semibold text-sm cursor-pointer">Contactanos Gratis</a>
         </div>
     </div>
     <div class="relative">
@@ -40,10 +40,10 @@
 
     </div>
     <div class="px-12 mt-12 bg-[#C2D8C4] items-center">
-        <div class="mx-50 flex items-center">
-            <div class="px-24 py-12 relative">
-                <img src="6.jpg" class="w-[80vh]">
-                <div class="absolute bg-green-50 p-6 top-0 right-330">
+        <div class="grid grid-cols-1 lg:grid-cols-[auto_1fr] gap-8 py-8 lg:mx-50">
+            <div class="relative lg:w-[28vw] w-[70vw] mx-auto">
+                <img src="6.jpg" class="w-full h-[70vh] hover:-translate-y-2 transition-all">
+                <div class="absolute bg-white p-4 -bottom-4 -right-4">
                     Calidad sobre <br>
                     Cantidad, siempre
                 </div>
@@ -119,6 +119,6 @@
             </div>
         </div>
     </div>
+    
 </body>
-
 </html>
